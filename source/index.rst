@@ -11,6 +11,7 @@
    :caption: Contents:
 
    git/git
+   Linux/Linux
 
 Indices and tables
 ==================
