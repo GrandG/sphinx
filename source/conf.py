@@ -162,3 +162,15 @@ source_suffix = ['.rst', '.md']
 
 # ===============主题=====================
 html_theme = "sphinx_rtd_theme"
+
+html_theme_options = {
+    'canonical_url': '',
+    'analytics_id': '',
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    # Toc options
+    'collapse_navigation': False,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+}
