@@ -12,6 +12,7 @@
 
    git/git
    Linux/Linux
+   mysql/mysql
 
 Indices and tables
 ==================
