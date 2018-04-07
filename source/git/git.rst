@@ -7,6 +7,7 @@ Git
    :maxdepth: 2
    :caption: Contents:
 
-   git命令速查
+   git配置
    工作流程
+   git命令速查
 
