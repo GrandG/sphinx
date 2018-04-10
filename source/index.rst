@@ -11,8 +11,9 @@
    :caption: Contents:
 
    git/git
-   Linux/Linux
+   Linux/linux
    mysql/mysql
+   resume/resume
 
 Indices and tables
 ==================
