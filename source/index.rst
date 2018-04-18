@@ -16,6 +16,7 @@
    resume/resume
    cross_domin/cross_domin
    data_structure/data_structure
+   python/python
    
 
 Indices and tables
