@@ -13,7 +13,6 @@
    git/git
    Linux/linux
    mysql/mysql
-   resume/resume
    cross_domin/cross_domin
    data_structure/data_structure
    python/python
