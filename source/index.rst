@@ -18,6 +18,7 @@
    python/python
    rest_framework/rest_framework
    interview/interview
+   web/web
    
 
 Indices and tables
