@@ -19,6 +19,7 @@
    rest_framework/rest_framework
    interview/interview
    web/web
+   celery/celery
    
 
 Indices and tables
