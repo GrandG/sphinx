@@ -20,6 +20,7 @@
    interview/interview
    web/web
    celery/celery
+   coroutine/coroutine
    
 
 Indices and tables

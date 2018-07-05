@@ -16,6 +16,7 @@
 
 ## RLock和Semaphore
 - RLock(可重入锁), 与Lock相同的是: 保证一次只有一个线程可以调用获取锁的方法; 不同的地方是, 当该方法调用一个用了相同锁的方法时, 不需要再次获取锁. 例子:
+
 ```python
 import threading
 
@@ -41,4 +42,5 @@ class SharedCounter:
         with SharedCounter._lock:
              self.incr(-delta)
 ```
+
 - Semaphore(信号量), 不用来线程同步, 而是用来限制程序
