@@ -7,18 +7,20 @@
 ====================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    git/git
    Linux/linux
    mysql/mysql
-   resume/resume
    cross_domin/cross_domin
    data_structure/data_structure
    python/python
    rest_framework/rest_framework
    interview/interview
+   web/web
+   celery/celery
+   coroutine/coroutine
    
 
 Indices and tables
