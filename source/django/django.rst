@@ -6,3 +6,5 @@ Django
    :caption: Contents:
 
    permission
+   deploy
+   nginx

@@ -21,6 +21,7 @@
    web/web
    celery/celery
    coroutine/coroutine
+   vim/vim
    
 
 Indices and tables
