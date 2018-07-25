@@ -134,3 +134,36 @@ if obj.active:
 当autocommit关闭的时候你可能会使用atomic. 这时候外层外也会用到savepoint(实在不懂什么意思).
 > **性能考虑**
 > 打开事务会给你的database server带来performance cost. 为了最小化这个影响, 应该尽可能保持事务简短. 这尤其重要如果是在Django的request/response循环之外的长时间运行的过程使用```atomic()```.
+
+### Autocommit
+#### 为什么Django使用autocommit
+在SQL标准中, 除非开启了事务, 否则每个SQL query都会开启一个事务. 这种事务必须显式地commit或者rollback.
+
+这对于开发者来说不是很方便. 为了解决这个问题, 很多数据库提供了autocommit模式.当打开autocommit模式, 并且没有手动开启事务, 每个SQL query都会包装在自己的事务中. 也就是说, 不仅每个SQL query会自动创建自己的事务, 而且每个事务都会自动地commit或者roll back(取决于query是否成功).
+
+Django默认开启了autocommmit模式
+
+#### 关闭事务管理
+你完全可以通过在```setting.py```里设置``` AUTOCOMMIT```为```False```来关闭Django的事务管理. 如果这么做了, Django将不能autocommit, 而且不能进行各种commit
+这会要求你在每个事务里都要显式地进行commit, (看不懂)
+
+### commit之后进行操作
+有时候你需要做一些与当前数据库事务相关的操作, 但前提是这个事务已经成功地commit. 例子里包括了一个```Celery```任务, 一个email notification, 或者一个cache invalidation.
+
+Django提供了一个```on_commit()```函数来注册在事务成功之后执行的回调函数(callback function):
+```on_commit(func, using=None)```
+传一个函数(不带参数)给```on_commit```
+```python
+from django.db import transaction
+
+def do_something():
+    pass  # send a mail, invalidate a cache, fire off a Celery task, etc.
+
+transaction.on_commit(do_something)
+```
+也可以用lambda函数:
+```transaction.on_commit(lambda: some_celery_task.delay('arg1'))```
+
+如果事务被回滚了, 你的函数将会被抛弃, 并且再也不会被调用.
+
+#### Savepoints
