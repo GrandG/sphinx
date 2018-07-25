@@ -59,6 +59,9 @@
     - Payload(载荷)
     - Signature(签名)
 - Token的组成: ```BASE64(Header).BASE64(Payload).HASH256(BASE64(Header).Base64(Payload), secret_key)```
+- ```base64.b64decode()```:
+    - 第一部分: ```{"typ":"JWT","alg":"HS256"}```
+    - 第二部分: ```{"user_id":1,"username":"admin","exp":1533694711,"email":""}```
 - 可以看出, Header和payload都是经过编码后就直接作为token, 因此容易被反编码得到数据, 因此, **token不能存敏感信息**. 
 - 使用JWT的好处是一定程度上可以防止CSRF攻击
     - CSRF攻击是指, 当在一个正规网站完成转账操作后, 没有正确退出, 而把cookie保留了下来; 这时候访问一个恶意网站, 该网站包含一些隐藏的表单, 当误点提交按钮或者网站直接用js提交表单, 就会把隐藏表单连同cookie一起提交, 实现用户不知情的情况下的转账操作

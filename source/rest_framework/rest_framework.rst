@@ -7,3 +7,5 @@ Rest Framework
 
    authentication
    permission
+   filter
+   viewset
