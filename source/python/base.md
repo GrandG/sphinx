@@ -284,7 +284,7 @@ a = [1, 2, 3]
     2. 当要先进先出时, 用deque
 - memoryview
 - tuple(元组)
-    - tuple常常被介绍为: 不可变的序列(immutable sequence). 其实除此之外, 他还有一个duty: 没有字段名的记录(record with no field name). 与它对应的就是nametuple
+    - tuple常常被介绍为: 不可变的序列(immutable sequence). 其实除此之外, 他还有一个duty: 没有字段名的记录(record with no field name). 与它对应的就是nametduple
     - 这么说是因为: tuple元素的数量和位置信息是确定的(不可变序列). 例如, 元组的各个元素分别是一个向量在各个坐标轴上的分量. 这样元素的位置和数量也包含着信息, 改变他们就变成了另外的数据.
     - 也就是说, tuple的元素的意义通常是不一样的(也可以说维度是不同的), 这与list不同. list的元素的地位是相同的(维度是相同的).
 - 要初始化一个包含列表的列表:

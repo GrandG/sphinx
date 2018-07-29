@@ -167,3 +167,54 @@ transaction.on_commit(do_something)
 如果事务被回滚了, 你的函数将会被抛弃, 并且再也不会被调用.
 
 #### Savepoints
+在savepoint(嵌套的atomic()块)后面的在```on_commit()```中注册的callable, 将在外层的事务commit之后被调用. 但是如果在这个事务中rollback到savepoint或者之前的savepoint, callable将不会被执行.
+```python
+with transaction.atomic():  # Outer atomic, start a new transaction
+    transaction.on_commit(foo)
+
+    with transaction.atomic():  # Inner atomic block, create a savepoint
+        transaction.on_commit(bar)
+
+# foo() and then bar() will be called when leaving the outermost block
+```
+
+另一方面, 当savepoint被回滚, 内层注册的callable将不会被调用:
+```python
+with transaction.atomic():  # Outer atomic, start a new transaction
+    transaction.on_commit(foo)
+
+    try:
+        with transaction.atomic():  # Inner atomic block, create a savepoint
+            transaction.on_commit(bar)
+            raise SomeError()  # Raising an exception - abort the savepoint
+    except SomeError:
+        pass
+
+# foo() will be called, but not bar()
+```
+
+#### 执行顺序
+对于一个给定的事务, on-commit函数将根据他们被注册的顺序来执行.
+
+#### 异常处理
+如果一个事务中的on-commit函数raise exception without being catching, 在这个事务中注册的其他函数都不会再执行. 
+
+#### 执行的时机
+你的回调函数(callback)将会在事务commit成功后执行, 所以回调函数报错不会令事务回滚. 他们(回调函数)根据事务的执行成功与否才执行, 但他们不是事务的一部分. 这在多数使用场景是合适的. 如果不是(你的回调行为很严格, 以致于回调的失败也要导致事务回滚), 那就不应该使用```on_commit()```回调钩子. 你应该使用[two-phase commit](https://en.wikipedia.org/wiki/Two-phase_commit_protocol), 例如[ psycopg Two-Phase Commit protocol support](http://initd.org/psycopg/docs/usage.html#tpc)和[ optional Two-Phase Commit Extensions in the Python DB-API specification](https://www.python.org/dev/peps/pep-0249/#optional-two-phase-commit-extensions)
+
+当处于autocommit模式并且在```atomic()```块之外, 回调函数会不经过commmit就马上执行.
+
+on-commit函数只会在autocommit模式和```atomic()```事务中才会起作用. 否则将会报错.
+
+#### 在测试中使用
+Django的```TestCase```类把每个测试都包装在事务中, 并且在每个测试后都会回滚事务, 以此保证隔离的测试环境. 这意味者所有事务都不会commit, 因此on-commit函数将永远不会被执行. 如果要测试on-commit回调函数的执行结果, 要使用``` TransactionTestCase```类.
+
+#### 为什么没有rollback钩子
+rollback钩子比commit钩子更难稳定地执行, 因为有很多因素会导致隐式的rollback.
+
+解决方法很简单: 不要在事务失败的时候do something, 而是改变为在事务失败的时候undo something, 这样就可以用```on_commit()```来实现了.
+
+### Low-level APIs
+> 警告:
+> 优先使用```atomic()```来取代以下的Low-level APIs
+Low-level APIs只在实现自己的事务管理才会用到
