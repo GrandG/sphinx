@@ -174,3 +174,216 @@ QuerySet are lazy: 创建QuerySet这个行为与数据库没有任何关系. 只
 -------
 
 ## Lookups that span relationships
+Django提供一种强大且符合直觉的方法来根据关系查询, 在脚本的背后自动地为你处理```JOIN```
+
+例子:
+```Entry.objects.filter(blog__name='Beatles Blog')```
+
+反方向查询也可以, 使用```reverse_name```即可:
+```Blog.objects.filter(entry__headline__contains='Lennon')```
+
+如果通过多个表进行查询, 其中某个中间表不符合查询条件, Django会把它视为empty, 但不会报错. 总的来说, 这个过程不会报异常. 例如:
+```Blog.objects.filter(entry__authors__name='Lennon')```
+如果某篇文章没有作者, 返回的结果就跟这篇文章的作者没有名字的结果是一样的. 多数情况下, 这是你想要的结果. 唯一的例外是你使用了```isnull```:
+```Blog.objects.filter(entry__authors__name__isnull=True)```
+这句话将返回作者名字是空的的结果, 还有文章没有作者的结果. 为了只返回作者名字为空的结果, 应该改为:
+```python
+Blog.objects.filter(entry__authors__isnull=False, entry__authors__name__isnull=True)
+```
+
+### Spanning multi-valued relationships
+当使用```ManyToManyField```和反方向的``` ForeignKey```(特点: 都是一对多)字段进行过滤的时候, 可能有两种方式的过滤(以Blog和Entry为例, 一个Blog有多篇Entry):
+情况1: 找出Blog中Entry的标题的标题是"Lennon", 同时发表年份是2008年
+情况2: 找出Blog中Entry的标题是"lennon"和Entry的发表年份是2008年(这里的两个Entry不是同一个Entry)
+
+Django对于这两种情况的解决方法是:
+对于第一种情况, 把过滤条件同时写在一个```filter()```里面; 
+```python 
+Blog.objects.filter(entry__headline__contains='Lennon', entry__pub_date__year=2008)
+```
+对于第二种情况, 使用两个```filter()```
+```python
+Blog.objects.filter(entry__headline__contains='Lennon').filter(entry__pub_date__year=2008)
+```
+> 注意
+> ```exclute()```的用法与上述的```filter()```的用法不同
+```python
+Blog.objects.exclude(
+    entry__headline__contains='Lennon',
+    entry__pub_date__year=2008,
+)
+```
+> 这句话是exclude blogs that contain both entries with "Lennon" in the headline and entries published in 2008
+(抓住both...and语法来分析)
+要实现exclude含有文章既是标题是Lennon同时发表日期是2008的文章,
+要这么写:
+```python
+Blog.objects.exclude(
+    entry__in=Entry.objects.filter(
+        headline__contains='Lennon',
+        pub_date__year=2008,
+    ),
+)
+```
+> 总结, ```filter()```中的过滤条件是针对一个object, ```exclude()```中的条件是针对不同的objects.
+---
+## Filters can reference fields on the mode
+在目前为止的例子中, 我们在filter中构建了model的一个字段与**一个常数**的比较. 那么怎么做到在filter中构建model记录的一个字段与另外一个字段比较呢?
+
+Django提供```F expressions```来实现这种比较.```F()```的实例可以在query中作为model字段的引用.
+
+例子. 找出评论数比pingback数多的文章:
+```python
+>>> from django.db.models import F
+>>> Entry.objects.filter(n_comments__gt=F('n_pingbacks'))
+```
+Django支持对```F()```中使用加, 减, 乘, 除, 求余, 指数运算:
+```python
+>>> Entry.objects.filter(n_comments__gt=F('n_pingbacks') * 2)
+```
+
+```python
+>>> Entry.objects.filter(rating__lt=F('n_comments') + F('n_pingbacks'))
+```
+
+可以在```F()```中使用双下划线来实现```JOIN```:
+```python
+Entry.objects.filter(authors__name=F('blog__name'))
+```
+对于日期/时间字段, 可以加上/减去````timedelta```对象:
+```python
+>>> from datetime import timedelta
+>>> Entry.objects.filter(mod_date__gt=F('pub_date') + timedelta(days=3))
+```
+
+```F()```对象支持位运算: ```.bitand()```, ```.bitor()```, ```.bitrightshift()```, ```.bitleftshift()```. 
+```F('somefield').bitand(16)```
+
+----
+
+## The pk lookup shortcut
+为了简化使用, Django提供了```pk```lookup shortcut, 它代表primary key.
+
+以下的写法是等价的:
+```python
+>>> Blog.objects.get(id__exact=14) # Explicit form
+>>> Blog.objects.get(id=14) # __exact is implied
+>>> Blog.objects.get(pk=14) # pk implies id__exact
+```
+
+----
+## Caching and QuerySets
+每个QuerySet都包含一个cache来最小化数据库查询.
+
+在一个新创建的QuerySet中, cache是空的. QuerySet第一次被evaluated--即发生了数据库查询--Django会在cache中保存查询结果, 并返回显式请求的结果(例如, 如果QuerySet被迭代, 返回下一个元素). Subsequence evaluations of QuerySet将会重用cache的结果.
+
+记住这些这些cache行为, 因为如果没有正确使用QuerySet, 他可能会咬你. 如下所示:
+```python
+>>> print([e.headline for e in Entry.objects.all()])
+>>> print([e.pub_date for e in Entry.objects.all()])
+```
+这里创建了两个QuerySet, 并分别evaluate.
+这意味将会执行两次相同的数据库查询, double了数据库的负载.
+而且有可能两个QuerySet包含不同的数据, 因为两个查询之间并不是原子操作, 中间可能执行了add或delete操作.
+
+为了解决这些问题, 应该这样写:
+```python
+>>> queryset = Entry.objects.all()
+>>> print([p.headline for p in queryset]) # Evaluate the query set.
+>>> print([p.pub_date for p in queryset]) # Re-use the cache from the evaluation.
+```
+### When QuerySets are not cached
+QuerySet不总是cache他们的结果
+使用数组切片和索引, 不会cache结果
+例子:
+```python
+>>> queryset = Entry.objects.all()
+>>> print(queryset[5]) # Queries the database
+>>> print(queryset[5]) # Queries the database again
+```
+以下是导致整个QuerySet被evaluated, 从而产生cache的行为:
+```python
+>>> [entry for entry in queryset]
+>>> bool(queryset)
+>>> entry in queryset
+>>> list(queryset)
+```
+
+>注意
+>```print()```QuerySet不会产生cache, 因为调用```repr()```只会显示QuerySet的部分值
+
+---
+
+## Complex lookups with Q objects
+关键字查询--```filter()```, ```get()```这些查询函数的参数--是用```AND```连接的. 如果你想要执行更复杂的查询(例如```OR```), 可以使用```Q```对象
+
+```Q```对象是用来封装一些关键字参数的对象. 这些关键字参数就是上面体到过的```Field lookups```
+
+例如, 这个```Q```对象封装了```LIKE```查询
+```python
+from django.db.models import Q
+Q(question__startswith='What')
+```
+
+```Q```对象可以使用```&```或```|```操作符. 当两个```Q```对象使用操作符连接起来, 会产出(yield)一个```Q```对象.
+例如:
+```python
+Q(question__startswith='Who') | Q(question__startswith='What')
+```
+它等价于以下的SQL语句:
+```
+WHERE question LIKE 'Who%' OR question LIKE 'What%'
+```
+
+而且, ```Q```对象可以使用```~```来表示```非```:
+```python
+(question__startswith='Who') | ~Q(pub_date__year=2005)
+```
+所有的接受关键字参数的lookup函数(```filer()```, ```exclude()```, ```get()```)都可以接受```Q```对象作为参数. 如果提供了多个```Q```像, 各个```Q```对象之间使用```AND```连接起来:
+```python
+Poll.objects.get(
+    Q(question__startswith='Who'),
+    Q(pub_date=date(2005, 5, 2)) | Q(pub_date=date(2005, 5, 6))
+)
+```
+大致相当于:
+```
+SELECT * from polls WHERE question LIKE 'Who%'
+    AND (pub_date = '2005-05-02' OR pub_date = '2005-05-06')
+```
+lookup function可以混搭使用```Q```对象和lookup field. 但是必须```Q```对象在前面, 其他lookup field在后面:
+```python
+Poll.objects.get(
+    Q(pub_date=date(2005, 5, 2)) | Q(pub_date=date(2005, 5, 6)),
+    question__startswith='Who',
+)
+```
+是正确的
+
+```python
+# INVALID QUERY
+Poll.objects.get(
+    question__startswith='Who',
+    Q(pub_date=date(2005, 5, 2)) | Q(pub_date=date(2005, 5, 6))
+)
+```
+是错误的.
+
+-----
+
+## Comparing objects
+比较model instance, 使用python的比较符```==```. 实际上, 他们比较的是两个实例的primary key.
+以下两句话是等效的:
+```python
+>>> some_entry == other_entry
+>>> some_entry.id == other_entry.id
+```
+
+如果model的primary key不是```id```, 那也没关系. 比较会自动使用primary key. 例如, 如果模型的primary key是name字段, 那下面的两句话是等效的:
+```python
+>>> some_obj == other_obj
+>>> some_obj.name == other_obj.name
+```
+----
+
+## Deleting objects
