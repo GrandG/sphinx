@@ -8,3 +8,6 @@ Django
    permission
    deploy
    nginx
+   transaction
+   query
+   customize_authentication

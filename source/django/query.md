@@ -387,3 +387,101 @@ Poll.objects.get(
 ----
 
 ## Deleting objects
+删除的方法, 叫做```delete()```.
+这个方法立刻删除对象, 并返回被删除对象的数量和一个dict, 该dict包含每个被删除的对象类型的数量. 例如:
+```python
+>>> e.delete()
+# (1, {'weblog.Entry': 1})
+```
+
+你也可以删除一系列的对象. 每个QuerySet都有```delete()```方法, 该方法会删除QuerySet的所有members. 例如:
+```python
+>>> Entry.objects.filter(pub_date__year=2005).delete()
+# (5, {'webapp.Entry': 5})
+```
+要记住, 这种方法(```QuerySet.delete()```)会以纯SQL的方式执行. 如果你在model class里定义了```delete()```方法, 想要在删除的时候使用自定义的```delete()```, 那么就不能用```QuerySet.delete()```的方式删除, 而是要"手动"执行object的```delete()```(例如对QuerySet进行迭代, 然后对每个object使用```delete()```))
+
+如果在外键设置了```ON DELETE CASCADE```, 那么如果外键指向关联的对象被删除了, 那么外键所在的对象也会被删除. 例子:
+```python
+b = Blog.objects.get(pk=1)
+# This will delete the Blog and all of its Entry objects.
+b.delete()
+```
+
+注意到, ```delete()```是唯一没有暴露给```Manager```的QuerySet方法, 这是一种安全机制, 避免所有QuerySet被删除.
+
+----
+
+## Copying model instances
+尽管没有内建的复制对象的方法, 但是还是可以很简单地实现复制对象. 只需要把object的id设为None, 再调用```save()```方法即可.
+```python
+blog = Blog(name='My blog', tagline='Blogging is easy')
+blog.save() # blog.pk == 1
+
+blog.pk = None
+blog.save() # blog.pk == 2
+```
+
+如果要复制的model使用继承, 事情稍微复杂一点:
+```python
+class ThemeBlog(Blog):
+    theme = models.CharField(max_length=200)
+
+django_blog = ThemeBlog(name='Django', tagline='Django is easy', theme='python')
+django_blog.save() # django_blog.pk == 3
+```
+这时候要同时设```pk```和```id```为None
+```python
+django_blog.pk = None
+django_blog.id = None
+django_blog.save() # django_blog.pk == 4
+```
+
+这种方法, 不会复制多对多的关系. 因此在复制对象之后要设置新的多对多关系:
+```python
+entry = Entry.objects.all()[0] # some previous entry
+old_authors = entry.authors.all()
+entry.pk = None
+entry.save()
+entry.authors.set(old_authors)
+```
+
+对于```OneToOneField```, 要把相关的对象再复制一个, 否则就违反了一对一关系.
+```python
+detail = EntryDetail.objects.all()[0]
+detail.pk = None
+detail.entry = entry
+detail.save()
+```
+
+----
+
+## Updating multiple objects at once
+有时候你可能想要改变QuerySet中所有对象的某一个字段. 可以用```update()```:
+```python
+# Update all the headlines with pub_date in 2007.
+Entry.objects.filter(pub_date__year=2007).update(headline='Everything is the same')
+```
+
+你只能在非关系的字段和```ForeignKey```使用这种方法. 
+- ```update```非关系的字段, 给该字段提供一个常数
+- ```update```ForeignKey字段, 给该字段提供一个model instance
+
+要注意这个```update()```方法会直接转化为SQL语句, 不用执行```save()```方法., 也不会发射```pre_save```或```post_save```信号(这也是调用```save()```的结果).
+如果你想要在每个model instance上执行```save()```方法, 只能对QuerySet进行迭代.
+
+可以在```update()```上结合```F```表达式使用. 
+```python
+>>> Entry.objects.all().update(n_pingbacks=F('n_pingbacks') + 1)
+```
+但是这种情况下, 不能在```F```表达式中使用```JOIN```, 即不能用双下划线引用另一张表的字段:
+```python
+# This will raise a FieldError
+>>> Entry.objects.update(headline=F('blog__name'))
+```
+---
+
+## Related objects
+当你在model中定义关系时(ForeignKy, OneToOneFiled, ManyToManyField), 模型的实例有简单的API去调用相关的对象.
+
+正向的话直接用```instance.ForeignKey```. 反向用```表名_set```
