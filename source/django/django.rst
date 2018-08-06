@@ -10,4 +10,4 @@ Django
    nginx
    transaction
    query
-   customize_authentication
+   authentication
