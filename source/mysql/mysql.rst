@@ -13,3 +13,5 @@ MySQL
    服务器性能剖析
    设计范式
    SQL语句优化
+   cache
+   lock

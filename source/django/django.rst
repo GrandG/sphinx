@@ -11,3 +11,6 @@ Django
    transaction
    query
    authentication
+   acess_optimization
+   cache_framework
+   django_redis.md

@@ -1,4 +1,4 @@
-# Filter
+# Filter过滤(包括筛选和排序)
 
 ## 过滤最简单的方法是重写```get_queryset```方法
 1. 根据当前请求的用户过滤
@@ -114,3 +114,4 @@ class PurchaseList(generics.ListAPIView):
     ```
     - ```ordering_fields```可以设为```"__all__"```, 这样可以对所有字段排序
     - ```ordering```是设置默认排序
+2. 请求url是: ```http://example.com/api/users?ordering=username```
