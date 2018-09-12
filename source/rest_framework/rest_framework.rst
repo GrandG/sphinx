@@ -9,3 +9,5 @@ Rest Framework
    permission
    filter
    viewset
+   pagination
+   exceptions
