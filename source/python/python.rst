@@ -13,3 +13,4 @@ Python
    copy
    format
    time
+   socket
