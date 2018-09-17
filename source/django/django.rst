@@ -13,4 +13,5 @@ Django
    authentication
    acess_optimization
    cache_framework
-   django_redis.md
+   django_redis
+   WSGI

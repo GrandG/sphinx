@@ -190,6 +190,40 @@ Middleware的存在对```server```和```application```来说是透明的, 而且
 
 当```application```被```server```调用, 它必须返回一个```yield``` zero或者是更多的```bytestrings```的```iterable```
 
+The server or gateway should treat the yielded bytestrings as binary byte sequences: in particular, it should ensure that line endings are not altered. The application is responsible for ensuring that the bytestring(s) to be written are in a format suitable for the client. (The server or gateway may apply HTTP transfer encodings, or perform other transformations for the purpose of implementing HTTP features such as byte-range transmission. See Other HTTP Features, below, for more details.)
+
+如果调用```len(iterable)```成功, ```server```必须能够依赖于这个结果的正确性. 也就是说, 如果```application```返回```iterable```实现了```__len__()```方法, 它必须要能返回正确的结果.
+
+如果这个```application```返回的```iterable```实现了```close()```方法, ```server```或```gateway```必须调用这个方法来结束当前```request```, 不管是因为正常完成```request```, 还是由于再迭代(iterate)过程中由于```application error```而提前被终结或者是由于浏览器提前终止连接.
+
+返回```generator```或其他传统的```iterator```的```application```不应该假定这个```iterator```一定会被consume, 因为它可能会被```server```提前close.
+
+(注意: ```application```必须要在```iterable```产出(yield)第一个body bytestrings之前调用```start_response()```, 这样```server```可以在有任何body content之前发送header. 但是, 这个调用可能会在```iterator```的第一次迭代时执行, ```server```不能假设```start_response()```一定在```iterator```迭代之前执行)
+
+最后, ```server```或```gateway``` ```一定不能```直接使用```application```返回的iterable的任何属性(attributes), 除非它是```server```或```gateway```的特定类型(type)的实例, 例如``` wsgi.file_wrapper```返回的```file wrapper```. In the general case, only attributes specified here, or accessed via e.g. the PEP 234 iteration APIs are acceptable.
+
+#### ```environ```变量
+```environ```字典要求包含[Common Gateway Interface规范](https://tools.ietf.org/html/draft-coar-cgi-v11-03)定义的CGI环境变量. 下面的变量必须要有, 除非他们的值是空字符串, 这种情况下可以忽略该变量.
+
+|变量|解释|
+|---|----|
+|REQUEST_METHOD|HTTP的请求方法, 例如'GET', 'POST'这些. 这个值永远不会为空, 因此该变量一定要有|
+|SCRIPT_NAME|```applocation对象```请求的url的路径的初始部分. 这个如果```application```响应```server```的root, 可能为空|
+|PATH_INFO|请求的url的路径的剩余部分. 可能为空|
+|QUERY_STRING|请求url```?```后面的部分. 可能为空|
+|CONTENT_TYPE|HTTP请求```Content-Type```字段的内容. 可能为空|
+|CONTENT_LENGTH|HTTP请求```CONTENT_LENGTH```字段的内容. 可能为空|
+
+略
+
+#### Input and Error Streams
+略
+
+#### ```start_response()``` Callable
+传给```application对象```的第二个参数是一个```callable对象```: ```start_response(status, response_headers, exc_info=None)```(像所有的WSGI参数一样, 应该通过位置传递而不应该通过keyword传递). ```start_response对象```用于开始HTTP response, 而且必须返回```write(body_data)```callable对象.
+
+```status```参数是HTTP的```status```string, 例如```200 OK```或```404 Not Found```这些. 就是, 由```Status-Code```和```Reason-Phrase```组成的string, 中间由一个空格分开.
+
 ### Implementation/Application信息
 
 ### 
