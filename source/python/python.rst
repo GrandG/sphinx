@@ -14,3 +14,4 @@ Python
    format
    time
    socket
+   WSGI
