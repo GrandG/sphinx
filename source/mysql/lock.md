@@ -1,6 +1,6 @@
 # InnoDB锁
 
-[翻译这里](https://dev.mysql.com/doc/refman/8.0/en/innodb-locking.html)
+[文档](https://dev.mysql.com/doc/refman/8.0/en/innodb-locking.html)
 [别人的翻译](https://segmentfault.com/a/1190000014071758)
 
 
