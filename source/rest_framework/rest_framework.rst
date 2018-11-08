@@ -11,3 +11,4 @@ Rest Framework
    viewset
    pagination
    exceptions
+   test

@@ -73,7 +73,7 @@ server {
     listen       80;        # 监听的端口
     server_name    localhost    # 这里写192.168.1.105(即本机ip)也可以, 这项一定要写, 不写就会转到default_server去, 这一项就是requet的HOST
     location      /gao {
-        root /home/gao/data    # 要serve 的静态文件的文件夹, match request的时候是root+url(即/home/gao/data/gao)
+        root /home/gao/data;    # 要serve 的静态文件的文件夹, match request的时候是root+url(即/home/gao/data/gao)
     }
 }
 ```
@@ -83,5 +83,6 @@ server {
     2. 关闭SELinux, ```setenforce Permissive```
 7. ```server_name```如果填```localhost```会转到默认的服务器, 填IP就不会
 8. ```/etc/nginx/nginx.conf```里面写的```server```似乎是万恶之源, 删了它就可以按照beginner's guide来进行了.
+9. 用阿里云服务器, 需要在安全组开通端口才可以访问.
 
 ## Nginx serve静态文件全过程记录, 附坑!!!!!!!!!

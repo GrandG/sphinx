@@ -485,3 +485,7 @@ Entry.objects.filter(pub_date__year=2007).update(headline='Everything is the sam
 当你在model中定义关系时(ForeignKy, OneToOneFiled, ManyToManyField), 模型的实例有简单的API去调用相关的对象.
 
 正向的话直接用```instance.ForeignKey```. 反向用```表名_set```
+
+----
+
+## Conditional Expressions
