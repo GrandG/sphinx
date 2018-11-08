@@ -110,5 +110,52 @@ HTTP 200 OK
 ```max_limit```: 指示最大可以设的```limit```值. 默认是```None```
 ```template```: 应该用不到
 
+---
 
 ## CursorPagination
+
+这种分页只用于前进(forward)和后退(backward), 不能用于指定跳到某一页(适合app)
+
+这种分页要求有一个唯一, 不重复, 不变的字段, 根据该字段排序, 一般最合适的是时间
+
+记录的相对顺序不变
+
+优点:
+
+1. 提供持续的分页视图. 确保不会出现重复的内容
+2. 但数据量很大时, 性能很好
+
+细节和界限
+
+使用cursor pagination要满足一下条件:
+1. 要有一个不变的字段. 比如timestamp或者其他只会设置一次, 且不变的的字段
+2. 应该要唯一, 或者接近唯一. Millisecond精度的timestamp就是一个很好的例子. 
+3. 不要是个浮点数
+4. 这个字段应该要设为index
+
+不过不满足以上条件, 多数情况下还是可以work. 但会失去一些重要的好处.
+
+使用
+
+全局使用
+
+```python
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.CursorPagination',
+    'PAGE_SIZE': 100
+}
+```
+
+局部使用
+
+把```pagination_class```类属性设为```CursorPagination```
+
+配置
+
+```CursorPagination```可以自定义一些属性
+
+- ```page_size```: 每页条数
+
+- ```cursor_query_param```: 默认时```cursor```
+
+- ```ordering```:  string, 或者 list of strings. ```cursor based```分页的依据. 默认是```-created```
