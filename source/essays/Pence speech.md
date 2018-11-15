@@ -1,0 +1,386 @@
+
+[视频](https://www.youtube.com/watch?v=aeVrMniBjSc)
+
+中文:
+>>
+    肯(哈德逊研究所总裁兼首席执行官Kenneth R. Weinstein)，感谢你的介绍。尊敬的各位理事，白邦瑞博士(Dr. Michael Pillsbury)、各位尊敬的嘉宾以及“以非传统方式思考未来”的在座各位，能来哈德逊研究所演讲是我的荣幸。
+
+    大约半个世纪以来，哈德逊研究所致力于“推进全球安全、繁荣与自由”。尽管哈德逊研究所的领导层不断更迭，有一件事从未改变：你们不断推进寻求真相，美国的领导力照耀着前进的道路”。
+
+    今天，谈到领导力，请允许我带来美国在国内外发挥强大领导力的倡导者---第45届美国总统唐纳德·特朗普的问候。
+
+    特朗普总统上任伊始，就把与中国和中国国家主席习近平的关系列为重要议题。去年4月6日，特朗普总统在海湖庄园与习主席会面。去年11月8日，特朗普总统前往北京，中国领导人热情接待了他。
+
+    在过去的两年里，我们的总统与中华人民共和国主席建立了坚固的个人关系，他们合作推进共同利益，最重要的就是推进朝鲜半岛的去核化。
+
+    我今天来到这里，是因为美国人民有权利知道这一点，那就是在此刻，北京正在使用一种全政府的手段，利用政治、经济、军事工具以及宣传，在美国推进其影响和利益。
+
+    中国也比以往更活跃地使用其力量，来影响并干预美国的国内政策和政治。
+
+    在特朗普总统的领导下，美国使用我们的原则和政策，开始对于中国的行动展开决定性的回击。
+
+    特朗普总统去年12月公布的《国家安全战略》中，谈到了“大国竞赛”的新时代。外国开始“重塑他们在区域和全球的影响力”，并“挑战美国的地缘政治优势，并试图改变国际秩序使之适合他们的利益”。
+
+    在这项战略中，特朗普总统明确表示，美国已经对中国采取新的政策。我们寻求公平、对等以及相互尊重主权的关系，而且我们已经开始采取迅速有力的行动来达成这个目标。
+
+    特朗普总统去年访问中国期间表示，“我们有机会加强两国的关系并改善两国民众的生活”。我们对未来的愿景建立在过去的最佳时期，那时美中两国以公开和友善的态度互相接触。
+
+    在独立战争之后，当我们年轻的国家寻求新的出口市场时，中国人对带着满载着人参和皮毛的美国贸易者敞开了大门。
+
+    当中国经受“百年耻辱”之际，美国拒绝加入，并主张“门户开放”政策，我们能够与中国进行更自由的贸易，并维持他们的主权。
+
+    当美国传教士带着福音来到中国海岸，他们被古老而充满活力的人民和深厚的文化所吸引。他们不仅传播了信仰，还创立了中国一些最早和最优秀的大学。
+
+    随着二战开始，我们做为盟国共同打击帝国主义。在战争之后，美国确保中国成为联合国的一部分，成为战后世界的一股重要力量。
+
+    但是，中国共产党在1949年掌权之后开始了威权扩张主义。很难想象五年之前我们并肩作战，而五年之后我们在朝鲜半岛的山区和峡谷中交战。我的父亲也参与了那场自由之战。
+
+    然而，甚至残酷的朝鲜战争都没能磨灭我们恢复人民之间长期纽带的共同愿望。中国与美国的隔离在1972年结束，之后不久，我们恢复了外交关系并开始经贸往来，美国大学也开始培训新一代的中国工程师、商业领袖、学者和官员。
+
+    苏联垮台之后，我们认为中国将不可避免地成为自由国家。带着这份乐观，美国在21世纪前夕向中国敞开大门，将中国纳入世界贸易组织。
+
+    此前的政府做出这个决定，希望中国的自由将蔓延到各个领域---不仅仅是经济，更是政治上，希望中国尊重传统的自由主义原则、尊重私人财产、个人自由和宗教自由，尊重人权。但是这个希望落空了。
+
+    中国人民自由的希望仍没有实现。北京仍然口头上在说“改革开放”，然而邓小平的这个著名政策已经变得空洞。
+
+    在过去17年，中国的GDP增长九倍，变成了世界第二大经济体。这很大程度上得益于美国对中国的投资。中国共产党也使用了与自由公平贸易不符的一系列政策，包括关税、配额、货币操纵、强制技术转移、知识产权盗窃以及工业补贴。这些政策建立了中国制造业的基本，而以竞争对手特别是美国的利益为代价。
+
+    中国的行为给美国带来了巨大贸易赤字，去年这个数字是3750亿，几乎占我们全球贸易赤字的一半。就像特朗普总统本周说的，我们在过去25年重建了中国。
+
+    现在，通过“中国制造2025”，中国共产党试图控制全世界90%的最先进的工业，包括机器人、生物科技和人工智能。为了赢得21世纪经济的领导权，北京指导其工业官员和商界以任何方式获取美国的知识产权。这是我们经济领导力的基石。
+
+    北京现在要求很多想在中国做生意的美国公司交出他们的商业秘密，也要求并支持对美国公司的并购，以获取他们的创意。最可怕的是，中国的安全机构掌握了大量窃取美国科技的能力---包括最先进的军事技术。使用这些偷窃的技术，中共正大规模地化犁为剑。
+
+    中国的军费是亚洲其他国家的总和，北京将在陆海空，乃至外太空抗衡美国军力作为首要任务。中国希望将美国挤出西太平洋，并试图阻止我们援助盟友。但是他们会失败。
+
+    北京也比以往任何时候都更广泛地宣示其力量。中国船只经常在由日本管理的尖阁列岛附近巡逻。尽管中国领导人2015年站在白宫玫瑰园里说他的国家“无意将南中国海军事化”，今天，在人工建造的岛屿上的军事基地里，北京部署了先进的反舰和防空导弹。
+
+    中国这星期展示了咄咄逼人的行为，一艘中国军舰逼近在南中国海进行自由航行的美国“迪凯特号”军舰，两舰相距仅有不到45码，迫使我方军舰迅速采取避撞动作。尽管受到这样鲁莽的骚扰，美国海军将在国际法允许的范围内、在我们国家利益的要求下，继续飞行、航行和运作。我们不会被吓倒；我们不会退缩。（掌声）
+
+    美国曾希望经济自由化将让中国与我们和世界建立起更好的伙伴关系。相反，中国选择了经济侵略，而这又壮大了中国不断扩大的军队的胆量。
+
+    北京也没有像我们希望的那样让自己的人民迈向更大的自由。曾有一度，北京慢慢地走向更大的自由以及对人权的更大尊重。然而，近年来，中国朝着控制和压迫本国人民的方向急转弯。
+
+    如今，中国已经建立了无以伦比的监控国家，范围越来越广，越来越具侵入性，而且经常是在美国技术的帮助之下。他们所说的“中国防火长城”也筑得越来越高，严重限制着中国人民的信息自由流通。
+
+    到2020年，中国的统治者试图落实奥威尔式的体系，也就是所谓的“社会信用分数”，前提是几乎控制人们生活的方方面面。用这一项目蓝图的官方文字的话说，该体系“让守信者畅行天下，让失信者寸步难行。”
+
+    在宗教自由的问题上，中国的基督徒、佛教徒和穆斯林正在经受新一波迫害浪潮的冲击。
+
+    上个月，北京关闭了中国最大的地下教会之一。在全国各地，当局拆毁十字架、焚烧圣经、监禁信徒。北京如今还与梵蒂冈达成协议，让公开宣称不信神的共产党在任命天主教主教方面发挥直接作用。对中国的基督徒来说，这些是绝望的时刻。
+
+    北京也在打压佛教。过去十年来，超过150名藏僧为了抗议中国压制他们的信仰和文化而自焚。在新疆，共产党在政府营地内监禁了多达一百万维吾尔穆斯林。他们在那里经受昼夜不停的洗脑。营地的幸存者描述他们的经历说，这是北京蓄意要扼杀维吾尔文化并消灭穆斯林信仰。
+
+    历史已经证明，那些压迫本国人民的国家很少就此住手。北京还试图将其势力扩展到全世界各地。正如哈德逊研究所的白邦瑞博士所写，“中国反对美国政府的行动和目标。实际上，中国正在与美国的盟友和敌人打造自己的关系，与北京的任何和平或积极的意图背道而驰。”
+
+    事实上，中国用所谓的“债务外交”扩大其影响力。今天，中国为亚洲、非洲、欧洲甚至拉丁美洲的政府提供数千亿美元的基础设施贷款。但这些贷款的条款就算往好里说也是不透明的，而且带来的利益压倒性地流向北京。
+
+    问问斯里兰卡吧，他们借了巨额债务让中国国企建造商业价值存疑的港口。两年前斯里兰卡无法偿还贷款，于是北京迫使斯里兰卡将新建的港口交到中国手里。这个港口可能很快就要成为中国不断扩展的蓝水海军的前沿基地了。
+
+    在我们的半球内，北京向委内瑞拉腐败无能的马杜罗政权提供了一条生命线，承诺提供50亿美元的、可以用石油偿还的贷款。中国还是该国最大的单一债权人，让委内瑞拉人民背上了超过500亿美元的债务。北京还通过向承诺配合中国战略目标的政党和候选人提供直接支持来腐化一些国家的政治。
+
+    自去年以来，中国共产党已说服三个拉丁美洲国家与台湾断交，转而承认北京。这些行动威胁到台湾海峡的稳定—美利坚合众国对此予以谴责。尽管我们政府将遵守三个联合公报和《台湾关系法》所反映的一个中国政策，美国始终相信，台湾对民主的拥抱为所有华人展示了一条更好的道路。（掌声）
+
+    这只是中国试图在世界各地推动其战略利益的几种方式而已。然而，前几届政府忽视了中国的行动。在很多情况下，他们还助长了他们。但是，这样的日子结束了。
+
+    在特朗普总统的领导下，美利坚合众国一直在以重新焕发的美国实力来捍卫我们的利益。
+
+    我们正在使世界历史上最强大的军队更为强大。今年早些时候，特朗普总统签署法律，让我们的国防经费有了罗纳德·里根时代以来最大的增长，拨款7160亿美元，以加强美军在各个领域的实力。
+
+    我们正在把我们的核武库现代化。我们正在部署和开发新的先进战斗机和轰炸机。我们正在建造新一代航空母舰和战舰。我们对我们武装部队的投资是前所未有的。这包括启动建立美国太空军的进程，以确保我们在太空的主宰地位能够持续下去。我们已经采取行动，授权加强在网络世界的能力，打造针对我们对手的威慑力量。
+
+    在特朗普总统的指示下，我们还在落实针对2500亿美元中国产品的关税，最高额的关税特别对准了北京试图抢占和控制的先进产业。总统也明确表示，我们还将征收更多的关税，有可能大幅增加这笔数额，可能会翻一番还多，除非达成公平与对等的协议。
+
+    这些行动行使了美国的实力，造成了重大影响。中国最大的股市在今年头九个月跌落了25%，大部分原因是因为本届行政当局对北京的贸易行为采取了坚定的立场。
+
+    正如特朗普总统所明确表示，我们不希望中国的市场遭殃。事实上，我们希望他们的市场繁荣。但是，美国希望北京寻求自由、公平和对等的贸易政策。我们将继续坚持要求他们这样做。（掌声）
+
+    可悲的是，中国的统治者到目前为止拒绝走那条道路。美国人民理应知道：做为对特朗普总统所采取的强硬立场的回应，北京正在推动一场全面而有协调的运动，以破坏总统、我们的议程和我们国家最珍贵的理想所受到的支持。
+
+    今天我想告诉你们我们了解到的中国在美国国内所采取的行动，有些是我们从情报评估中收集的，有些是可以公开获取的。但是一切都是事实。
+
+    就像我说过的那样，就在我们此时说话之际，北京正在利用全政府的方式来推进其影响力并谋取其利益。北京正在以更为主动和胁迫性的方式使用这种力量，干涉美国的国内政策和政治。
+
+    今天，中国共产党政府正在奖赏或胁迫美国的工商企业、电影制片厂、大学、智库、学者、记者、地方、州和联邦政府官员。
+
+    最恶劣的是，中国发起了前所未有的行动，以影响美国公众舆论、2018年选举和2020年总统选举前的环境。坦率地说，特朗普总统的领导正在奏效；中国希望美国有个不同的总统。
+
+    毫无疑问,中国正在干涉美国的民主运作。就像特朗普总统上个星期所说的那样，我们“发现中国在试图干预我们2018年即将到来的中期选举。”
+
+    我们的情报界表示，“中国正在瞄准美国的州和地方政府和官员，以利用联邦政府和地方政府在政策上的分歧。中国正在利用一些可能引起意见分裂的议题，如贸易关税问题，以推动北京的政治影响力。”
+
+    今年6月，北京发出了一份名为宣传管理通知的敏感文件，其中提出了它的战略。该通知的原话说，中国必须精准出击，分化美国国内不同的群体。
+
+    为了达到这一目的，北京调遣其隐秘的行动人员、幌子组织和宣传机构来改变美国人对中国政策的看法。我们情报界一位资深职业官员最近告诉我说，跟中国正在美国各地所做的事情相比，俄罗斯正在做的事情是小巫见大巫。
+
+    一些中国高级官员还试图把美国一些工商界领袖意图维持他们在中国的公司运营的愿望作为杠杆来影响他们，要他们谴责我们的贸易行动。最近的一个例子是，他们威胁美国一家大公司说，如果该公司拒绝公开发声反对美国政府的政策，就不批准他们在中国的营业执照。
+
+    就影响中期选举而言，诸位只需要看一看北京针对我们的关税政策提出的反制关税就可以了。北京特意锁定那些可能在2018年选举中发挥重大作用的行业和州。 有一种估算是，中国选择打击的美国的郡有80%以上曾在2016年投票支持特朗普总统；如今，中国希望把那些选民调转过来反对我们的行政当局。
+
+    中国还直接向美国选民发出诉求。上个星期，中国政府出资在《得梅因纪事报》刊登了好几页的插页广告。那份报纸是美国驻中国大使的家乡州爱奥华州的主要报 纸，也是2018年选举的一个具有关键州。那些广告的版面设计看上去像是新闻报道，把我们的贸易政策说成是鲁莽的，对爱奥华州的人是有害的。
+
+    幸运的是，美国人不吃这一套。例如，美国农场主跟总统站在一起，而且也正在看到特朗普总统所采取的坚定立场有了实际的效果，其中包括本星期美国-墨西哥-加拿大协议(USMCA)，我们以实质性的方式为美国产品打开了北美的市场。USMCA对美国的农场主和制造业来说是重大胜利。（掌声）
+
+    然而，中国的行动并不仅仅专注于影响我们的政策和政治。北京还在采取步骤，利用其经济杠杆力和巨大市场的诱惑力，对美国工商界施加影响。
+
+    北京如今要求在中国经营的美国合资企业在公司内部建立他们所说的“党组织”，让共产党在雇人和投资决策上拥有发言权甚至否决权。
+
+    中国当局还对把台湾描述为独特地理实体或者偏离中国西藏政策的美国公司发出威胁。北京迫使达美航空公司因为不在网站上把台湾称为“中国一个省”而公开道歉。北京还迫使万豪解雇了一名只是转推了一条有关西藏推文的美国雇员。
+
+    北京经常性地要求好莱坞严格地正面描绘中国。那些没有这样做的制片厂和制片人受到惩罚。北京的审查人员对哪怕对中国只有小小批评的电影都迅速加以剪辑或取缔。影片《僵尸世界大战》(World War Z)必须删掉剧本里提到的一种病毒，因为这种病毒源自中国。影片《赤色黎明》(Red Dawn)利用数字技术进行了修改，把反面人物变成朝鲜人，而不是中国人。
+
+    但是，除了工商和娱乐领域之外，中国共产党还在为美国境内，而且坦率地说，在全世界各地的宣传机构花费数以十亿计美元。
+
+    中国国际广播电台如今在美国30多个电台播放对北京友好的节目，很多电台位于美国大城市。中国国际电视台触及到7千5百万美国人，它直接从中国共产党的主子那里接受行动命令。中国最高领导人视察这家电视网络总部时说了这样的话：“党和政府主办的媒体是党和政府的宣传阵地，必须姓党。”
+
+    出于这些原因和这一现实，司法部在上个月下令该网络登记为外国代理人。
+
+    共产党还威胁和拘押那些对问题挖掘太深的美国记者的中国家人。中共还封锁美国媒体机构的网站并增加了我们的记者获得签证的难度。这发生在《纽约时报》发表了有关中国一些领导人的财富的调查报告之后。
+
+    但是媒体不是中共试图营造审查文化的唯一领域。学术界也是这样。
+
+    只需看看中国学生学者联合会就够了。这个组织在美国各地校园有150多个分支。这些群体帮助为在美国学习的43多万中国国民中的一些人组织社会活动，当中国学生和美国学校偏离了共产党路线时，他们还向中国使领馆报告。
+
+    在马里兰大学，一名中国学生最近在毕业典礼上谈到了她所说的“言论自由的清新空气”。共产党官方报纸立刻斥责了她，她成为严格控制下的中国社交媒体批评风暴的受害者，她的家人在国内受到骚扰。而对马里兰大学本身而言，它与中国的交流项目本是美国最为广泛的，突然间从源源不绝变成了点点细流。
+
+    中国还通过其它方式施加学术压力。北京慷慨地向大学、智库和学者提供资金，彼此的理解是他们会回避共产党认为危险或冒犯的观点。中国事务专家尤其知道，如果他们的研究与北京的口径相抵触，他们的签证将被延迟或拒绝。
+
+    即使避免从中国拿钱的学者和组织也成为中国的打击目标。哈德逊研究所就有亲身体会。在你们提出要为一位北京不喜欢的讲话人主办讲座时，你们的网站遭到源自上海的重大网络攻击。你们比多数人都了解，中共试图破坏美国今天的学术自由和言论自由。
+
+    这些以及其它行动加在一起，构成了不断加剧的努力，目的是要让美国的公众舆论和公共政策偏离坚持美国优先的特朗普总统的领导。但是我们向中国统治者发出的讯息是：本届总统不会退缩，（掌声）美国人民不会动摇。虽然我们希望改善与北京的关系，但我们将继续坚定地捍卫我们的安全和我们的经济。
+
+    本届行政当局将继续采取果断行动，保护美国的利益、美国的就业和美国的安全。
+
+    在我们重建军队的同时，我们将继续维护美国在印太地区的利益。
+
+    在我们回应中国的贸易行为时，我们将继续要求与中国建立自由、公平和对等的经济关系。我们将要求北京打破贸易壁垒，履行义务，全面开放经济——就像我们开放我们的经济一样。
+
+    我们将继续对北京采取行动，直到盗窃美国知识产权的行为永远消失。我们将继续坚定立场，直到中国政府停止强行技术转让的掠夺性做法。我们将保护美国企业的私有财产利益。(掌声)
+
+    为了推进我们自由开放的印度洋-太平洋地区愿景，我们正在与从印度到萨摩亚等整个地区与我们有着共同价值观的国家建立更牢固的新纽带。我们的关系将源于伙伴关系的尊重，而非统治。
+
+    我们正在双边基础上达成新的贸易协议，就像上周特朗普总统与韩国签署了一项改善后的贸易协议一样。我们不久将开始与日本进行历史性的双边自由贸易谈判。(掌声)
+
+    我还高兴地报告，我们正在精简国际发展和金融项目。我们将给外国一个公正、透明的选择，以取代中国的债务陷阱外交。事实上，本周特朗普总统将把《建设法案》(BUILD Act)签署成为法律。
+
+    下个月，我将有幸代表美国参加在新加坡举办的东盟峰会和在巴布亚新几内亚举办的亚太经合论坛。在那里，我们将公布新的措施和计划，以支持一个自由开放的印太地区。我将代表总统传达这样一个信息:美国对印度洋-太平洋地区的承诺从未如此坚定。(掌声)
+
+    在国内，为了保护我们的利益，我们最近加强了外国投资委员会的权力，加强了我们对中国在美投资的审查，以保护我们的国家安全不受中国政府掠夺性行为的影响。
+
+    当涉及北京对美国政治和政策的恶意影响和干涉时，我们将继续揭露它，无论北京采取何种形式。我们将与社会各阶层领导人合作，捍卫我们的国家利益和最珍视的理想。美国人民将发挥决定性作用——事实上，他们已经在起作用了。
+
+    当我们聚集在这里的时，一种新的共识正在全美兴起。越来越多的商界领袖考虑的是下个季度以后的事情，如果要交出他们的知识产权或协助北京的压迫，在进入中国市场之前，他们会三思而后行。但更多企业必须效仿。例如，谷歌应立即终止“蜻蜓”应用的开发，该应用将加强共产党的审查，并损害中国消费者的隐私。(掌声)
+
+    我们也很高兴看到更多的记者报道真相，不用恐惧也没有偏袒，深入挖掘如何中国干涉我们社会以及背后原因。我们希望美国和全球新闻机构将继续加入这一努力。
+
+    越来越多的学者也在大声疾呼，捍卫学术自由，越来越多的大学和智库也在鼓足勇气拒绝中国政府的容易钱，它们认识到，每一美元都有相应的要求。我们相信他们的队伍会不断壮大。
+
+    在全国范围内，美国人民的警惕性越来越高，他们重新赞赏美国政府的行动，以及特朗普总统重启美中经济和战略关系的领导能力。美国人坚定地支持一位把美国放在第一位的总统。
+
+    在特朗普总统的领导下，我可以向你们保证，美国将坚持到底。中国应该知道，美国人民及其两党民选官员的问题已经得到解决。
+
+    正如我们的国家安全战略所指出的那样:我们应该记住，“竞争并不总是意味着敌意”，它也不必如此。特朗普总统已经明确表示，我们希望与北京建立建设性关系，共同促进我们的繁荣与安全，而不是分离。尽管中国政府一直在进一步偏离这一愿景，但中国领导人仍可以改变路线，回归几十年前两国关系开始时的改革开放精神。美国人民别无所求;中国人民理应得到更多。
+
+    伟大的中国作家鲁迅经常感叹他的国家，他写道，“对于异族历来只有两样称呼，一样是禽兽，一样是圣上，但从没有说他也同我们一样的”。今天，美国向中国伸出了我们的手。我们希望，北京很快会以行动而不是言词作为回应，重新尊重美国。但请放心:在我们与中国的关系建立在公平、对等和尊重我们主权的基础上之前，我们不会让步。(掌声)
+
+    中国有句古话:“人见目前，天见久远。”在我们前进的道路上，让我们以决心和信念追求和平与繁荣的未来。相信特朗普总统的领导力和远见，以及他与中国国家主席建立起的关系。相信美国人民和中国人民之间的持久友谊。相信上天能看到未来——在上帝的恩典下，美国和中国将共同迎接未来。
+
+    谢谢。 上帝保佑你们。 上帝保佑美利坚合众国。 （掌声）
+
+[英文](https://www.whitehouse.gov/briefings-statements/remarks-vice-president-pence-administrations-policy-toward-china/):
+
+>>
+    The Hudson Institute
+    Washington, D.C.
+
+    11:07 A.M. EDT
+
+    THE VICE PRESIDENT: Thank you, Ken, for that kind introduction. To the Members of the Board of Trustees, to Dr. Michael Pillsbury, to our distinguished guests, and to all of you who, true to your mission in this place, “think about the future in unconventional ways” –- it is an honor to be back at the Hudson Institute.
+
+    For more than a half a century, this Institute has dedicated itself to “advancing global security, prosperity, and freedom.” And while Hudson’s hometowns have changed over the years, one thing has been constant: You have always advanced that vital truth, that American leadership lights the way.
+
+    And today, speaking of leadership, allow me to begin by bringing greetings from a great champion of American leadership at home and abroad –- I bring greetings from the 45th President of the United States of America, President Donald Trump. (Applause.)
+
+    From early in this administration, President Trump has made our relationship with China and President Xi a priority. On April 6th of last year, President Trump welcomed President Xi to Mar-a-Lago. On November 8th of last year, President Trump traveled to Beijing, where China’s leader welcomed him warmly.
+
+    Over the course of the past two years, our President has forged a strong personal relationship with the President of the People’s Republic of China, and they’ve worked closely on issues of common interest, most importantly the denuclearization of the Korean Peninsula.
+
+    But I come before you today because the American people deserve to know that, as we speak, Beijing is employing a whole-of-government approach, using political, economic, and military tools, as well as propaganda, to advance its influence and benefit its interests in the United States.
+
+    China is also applying this power in more proactive ways than ever before, to exert influence and interfere in the domestic policy and politics of this country.
+
+    Under President Trump’s leadership, the United States has taken decisive action to respond to China with American action, applying the principles and the policies long advocated in these halls.
+
+    In our National Security Strategy that the President Trump released last December, he described a new era of “great power competition.” Foreign nations have begun to, as we wrote, “reassert their influence regionally and globally,” and they are “contesting [America’s] geopolitical advantages and trying [in essence] to change the international order in their favor.”
+
+    In this strategy, President Trump made clear that the United States of America has adopted a new approach to China. We seek a relationship grounded in fairness, reciprocity, and respect for sovereignty, and we have taken strong and swift action to achieve that goal.
+
+    As the President said last year on his visit to China, in his words, “we have an opportunity to strengthen the relationship between our two countries and improve the lives of our citizens.” Our vision of the future is built on the best parts of our past, when America and China reached out to one another in a spirit of openness and friendship.
+
+    When our young nation went searching in the wake of the Revolutionary War for new markets for our exports, the Chinese people welcomed American traders laden with ginseng and fur.
+
+    When China suffered through indignities and exploitations during her so-called “Century of Humiliation,” America refused to join in, and advocated the “Open Door” policy, so that we could have freer trade with China, and preserve their sovereignty.
+
+    When American missionaries brought the good news to China’s shores, they were moved by the rich culture of an ancient and vibrant people. And not only did they spread their faith, but those same missionaries founded some of China’s first and finest universities.
+
+    When the Second World War arose, we stood together as allies in the fight against imperialism. And in that war’s aftermath, America ensured that China became a charter member of the United Nations, and a great shaper of the post-war world.
+
+    But soon after it took power in 1949, the Chinese Communist Party began to pursue authoritarian expansionism. It is remarkable to think that only five years after our nations had fought together, we fought each other in the mountains and valleys of the Korean Peninsula. My own father saw combat on that frontier of freedom.
+
+    But not even the brutal Korean War could diminish our mutual desire to restore the ties that for so long had bound our peoples together. China’s estrangement from the United States ended in 1972, and, soon after, we re-established diplomatic relations and began to open our economies to one another, and American universities began training a new generation of Chinese engineers, business leaders, scholars, and officials.
+
+    After the fall of the Soviet Union, we assumed that a free China was inevitable. Heady with optimism at the turn of the 21st Century, America agreed to give Beijing open access to our economy, and we brought China into the World Trade Organization.
+
+    Previous administrations made this choice in the hope that freedom in China would expand in all of its forms -– not just economically, but politically, with a newfound respect for classical liberal principles, private property, personal liberty, religious freedom — the entire family of human rights. But that hope has gone unfulfilled.
+
+    The dream of freedom remains distant for the Chinese people. And while Beijing still pays lip service to “reform and opening,” Deng Xiaoping’s famous policy now rings hollow.
+
+    Over the past 17 years, China’s GDP has grown nine-fold; it’s become the second-largest economy in the world. Much of this success was driven by American investment in China. And the Chinese Communist Party has also used an arsenal of policies inconsistent with free and fair trade, including tariffs, quotas, currency manipulation, forced technology transfer, intellectual property theft, and industrial subsidies that are handed out like candy to foreign investment. These policies have built Beijing’s manufacturing base, at the expense of its competitors -– especially the United States of America.
+
+    China’s actions have contributed to a trade deficit with the United States that last year ran to $375 billion –- nearly half of our global trade deficit. As President Trump said just this week, in his words, “We rebuilt China” over the last 25 years.
+
+    Now, through the “Made in China 2025” plan, the Communist Party has set its sights on controlling 90 percent of the world’s most advanced industries, including robotics, biotechnology, and artificial intelligence. To win the commanding heights of the 21st century economy, Beijing has directed its bureaucrats and businesses to obtain American intellectual property –- the foundation of our economic leadership -– by any means necessary.
+
+    Beijing now requires many American businesses to hand over their trade secrets as the cost of doing business in China. It also coordinates and sponsors the acquisition of American firms to gain ownership of their creations. Worst of all, Chinese security agencies have masterminded the wholesale theft of American technology –- including cutting-edge military blueprints. And using that stolen technology, the Chinese Communist Party is turning plowshares into swords on a massive scale.
+
+    China now spends as much on its military as the rest of Asia combined, and Beijing has prioritized capabilities to erode America’s military advantages on land, at sea, in the air, and in space. China wants nothing less than to push the United States of America from the Western Pacific and attempt to prevent us from coming to the aid of our allies. But they will fail.
+
+    Beijing is also using its power like never before. Chinese ships routinely patrol around the Senkaku Islands, which are administered by Japan. And while China’s leader stood in the Rose Garden at the White House in 2015 and said that his country had, and I quote, “no intention to militarize” the South China Sea, today, Beijing has deployed advanced anti-ship and anti-air missiles atop an archipelago of military bases constructed on artificial islands.
+
+    China’s aggression was on display this week, when a Chinese naval vessel came within 45 yards of the USS Decatur as it conducted freedom-of-navigation operations in the South China Sea, forcing our ship to quickly maneuver to avoid collision. Despite such reckless harassment, the United States Navy will continue to fly, sail, and operate wherever international law allows and our national interests demand. We will not be intimidated and we will not stand down. (Applause.)
+
+    America had hoped that economic liberalization would bring China into a greater partnership with us and with the world. Instead, China has chosen economic aggression, which has in turn emboldened its growing military.
+
+    Nor, as we had hoped, has Beijing moved toward greater freedom for its own people. For a time, Beijing inched toward greater liberty and respect for human rights. But in recent years, China has taken a sharp U-turn toward control and oppression of its own people.
+
+    Today, China has built an unparalleled surveillance state, and it’s growing more expansive and intrusive – often with the help of U.S. technology. What they call the “Great Firewall of China” likewise grows higher, drastically restricting the free flow of information to the Chinese people.
+
+    And by 2020, China’s rulers aim to implement an Orwellian system premised on controlling virtually every facet of human life — the so-called “Social Credit Score.” In the words of that program’s official blueprint, it will “allow the trustworthy to roam everywhere under heaven, while making it hard for the discredited to take a single step.”
+
+    And when it comes to religious freedom, a new wave of persecution is crashing down on Chinese Christians, Buddhists, and Muslims.
+
+    Last month, Beijing shut down one of China’s largest underground churches. Across the country, authorities are tearing down crosses, burning bibles, and imprisoning believers. And Beijing has now reached a deal with the Vatican that gives the avowedly atheist Communist Party a direct role in appointing Catholic bishops. For China’s Christians, these are desperate times.
+
+    Beijing is also cracking down on Buddhism. Over the past decade, more than 150 Tibetan Buddhist monks have lit themselves on fire to protest China’s repression of their beliefs and their culture. And in Xinjiang, the Communist Party has imprisoned as many as one million Muslim Uyghurs in government camps where they endure around-the-clock brainwashing. Survivors of the camps have described their experiences as a deliberate attempt by Beijing to strangle Uyghur culture and stamp out the Muslim faith.
+
+    As history attests though, a country that oppresses its own people rarely stops there. And Beijing also aims to extend its reach across the wider world. As Hudson’s own Dr. Michael Pillsbury has written, “China has opposed the actions and goals of the U.S. government. Indeed, China is building its own relationships with America’s allies and enemies that contradict any peaceful or productive intentions of Beijing.”
+
+    In fact, China uses so-called “debt diplomacy” to expand its influence. Today, that country is offering hundreds of billions of dollars in infrastructure loans to governments from Asia to Africa to Europe and even Latin America. Yet the terms of those loans are opaque at best, and the benefits invariably flow overwhelmingly to Beijing.
+
+    Just ask Sri Lanka, which took on massive debt to let Chinese state companies build a port of questionable commercial value. Two years ago, that country could no longer afford its payments, so Beijing pressured Sri Lanka to deliver the new port directly into Chinese hands. It may soon become a forward military base for China’s growing blue-water navy.
+
+    Within our own hemisphere, Beijing has extended a lifeline to the corrupt and incompetent Maduro regime in Venezuela that’s been oppressing its own people. They pledged $5 billion in questionable loans to be repaid with oil. China is also that country’s single largest creditor, saddling the Venezuelan people with more than $50 billion in debt, even as their democracy vanishes. Beijing is also impacting some nations’ politics by providing direct support to parties and candidates who promise to accommodate China’s strategic objectives.
+
+    And since last year alone, the Chinese Communist Party has convinced three Latin American nations to sever ties with Taipei and recognize Beijing. These actions threaten the stability of the Taiwan Strait, and the United States of America condemns these actions. And while our administration will continue to respect our One China Policy, as reflected in the three joint communiqués and the Taiwan Relations Act, America will always believe that Taiwan’s embrace of democracy shows a better path for all the Chinese people. (Applause.)
+
+    Now these are only a few of the ways that China has sought to advance its strategic interests across the world, with growing intensity and sophistication. Yet previous administrations all but ignored China’s actions. And in many cases, they abetted them. But those days are over.
+
+    Under President Trump’s leadership, the United States of America has been defending our interests with renewed American strength.
+
+    We’ve been making the strongest military in the history of the world stronger still. Earlier this year, President Trump signed into law the largest increase in our national defense since the days of Ronald Reagan -– $716 billion to extend the strength of the American military to every domain.
+
+    We’re modernizing our nuclear arsenal. We’re fielding and developing new cutting-edge fighters and bombers. We’re building a new generation of aircraft carriers and warships. We’re investing as never before in our armed forces. And this includes initiating the process to establish the United States Space Force to ensure our continued dominance in space, and we’ve taken action to authorize increased capability in the cyber world to build deterrence against our adversaries.
+
+    At President Trump’s direction, we’re also implementing tariffs on $250 billion in Chinese goods, with the highest tariffs specifically targeting the advanced industries that Beijing is trying to capture and control. And as the President has also made clear, we will levy even more tariffs, with the possibility of substantially more than doubling that number, unless a fair and reciprocal deal is made. (Applause.)
+
+    These actions — exercises in American strength — have had a major impact. China’s largest stock exchange fell by 25 percent in the first nine months of this year, in large part because our administration has been standing strong against Beijing’s trade practices.
+
+    As President Trump has made clear, we don’t want China’s markets to suffer. In fact, we want them to thrive. But the United States wants Beijing to pursue trade policies that are free, fair, and reciprocal. And we will continue to stand and demand that they do. (Applause.)
+
+    Sadly, China’s rulers, thus far, have refused to take that path. The American people deserve to know: In response to the strong stand that President Trump has taken, Beijing is pursuing a comprehensive and coordinated campaign to undermine support for the President, our agenda, and our nation’s most cherished ideals.
+
+    I want to tell you today what we know about China’s actions here at home — some of which we’ve gleaned from intelligence assessments, some of which are publicly available. But all of which are fact.
+
+    As I said before, as we speak, Beijing is employing a whole-of-government approach to advance its influence and benefit its interests. It’s employing this power in more proactive and coercive ways to interfere in the domestic policies of this country and to interfere in the politics of the United States.
+
+    The Chinese Communist Party is rewarding or coercing American businesses, movie studios, universities, think tanks, scholars, journalists, and local, state, and federal officials.
+
+    And worst of all, China has initiated an unprecedented effort to influence American public opinion, the 2018 elections, and the environment leading into the 2020 presidential elections. To put it bluntly, President Trump’s leadership is working; and China wants a different American President.
+
+    There can be no doubt: China is meddling in America’s democracy. As President Trump said just last week, we have, in his words, “found that China has been attempting to interfere in our upcoming [midterm] election[s].”
+
+    Our intelligence community says that “China is targeting U.S. state and local governments and officials to exploit any divisions between federal and local levels on policy. It’s using wedge issues, like trade tariffs, to advance Beijing’s political influence.”
+
+    In June, Beijing itself circulated a sensitive document, entitled “Propaganda and Censorship Notice.” It laid out its strategy. It stated that China must, in their words, “strike accurately and carefully, splitting apart different domestic groups” in the United States of America.
+
+    To that end, Beijing has mobilized covert actors, front groups, and propaganda outlets to shift Americans’ perception of Chinese policy. As a senior career member of our intelligence community told me just this week, what the Russians are doing pales in comparison to what China is doing across this country. And the American people deserve to know it.
+
+    Senior Chinese officials have also tried to influence business leaders to encourage them to condemn our trade actions, leveraging their desire to maintain their operations in China. In one recent example, China threatened to deny a business license for a major U.S. corporation if they refused to speak out against our administration’s policies.
+
+    And when it comes to influencing the midterms, you need only look at Beijing’s tariffs in response to ours. The tariffs imposed by China to date specifically targeted industries and states that would play an important role in the 2018 election. By one estimate, more than 80 percent of U.S. counties targeted by China voted for President Trump and I in 2016; now China wants to turn these voters against our administration.
+
+    And China is also directly appealing to the American voters. Last week, the Chinese government paid to have a multipage supplement inserted into the Des Moines Register –- the paper of record of the home state of our Ambassador to China, and a pivotal state in 2018 and 2020. The supplement, designed to look like the news articles, cast our trade policies as reckless and harmful to Iowans.
+
+    Fortunately, Americans aren’t buying it. For example, American farmers are standing with this President and are seeing real results from the strong stands that he’s taken, including this week’s U.S.-Mexico-Canada Agreement, where we’ve substantially opened North American markets to U.S. products. The USMCA is a great win for American farmers and American manufacturers. (Applause.)
+
+    But China’s actions aren’t focused solely on influencing our policies and politics. Beijing is also taking steps to exploit its economic leverage, and the allure of their large marketplace, to advance its influence over American businesses.
+
+    Beijing now requires American joint ventures that operate in China to establish what they call “party organizations” within their company, giving the Communist Party a voice –- and perhaps a veto -– in hiring and investment decisions.
+
+    Chinese authorities have also threatened U.S. companies that depict Taiwan as a distinct geographic entity, or that stray from Chinese policy on Tibet. Beijing compelled Delta Airlines to publicly apologize for not calling Taiwan a “province of China” on its website. And it pressured Marriott to fire a U.S. employee who merely liked a tweet about Tibet.
+
+    And Beijing routinely demands that Hollywood portray China in a strictly positive light. It punishes studios and producers that don’t. Beijing’s censors are quick to edit or outlaw movies that criticize China, even in minor ways. For the movie, “World War Z,” they had to cut the script’s mention of a virus because it originated in China. The movie, “Red Dawn” was digitally edited to make the villains North Korean, not Chinese.
+
+    But beyond business and entertainment, the Chinese Communist Party is also spending billions of dollars on propaganda outlets in the United States and, frankly, around the world.
+
+    China Radio International now broadcasts Beijing-friendly programs on over 30 U.S. outlets, many in major American cities. The China Global Television Network reaches more than 75 million Americans, and it gets its marching orders directly from its Communist Party masters. As China’s top leader put it during a visit to the network’s headquarters, and I quote, “The media run by the Party and the government are propaganda fronts and must have the Party as their surname.”
+
+    It’s for those reasons and that reality that, last month, the Department of Justice ordered that network to register as a foreign agent.
+
+    The Communist Party has also threatened and detained the Chinese family members of American journalists who pry too deep. And it’s blocked the websites of U.S. media organizations and made it harder for our journalists to get visas. This happened after the New York Times published investigative reports about the wealth of some of China’s leaders.
+
+    But the media isn’t the only place where the Chinese Communist Party seeks to foster a culture of censorship. The same is true across academia.
+
+    I mean, look no further than the Chinese Students and Scholars Association, of which there are more than 150 branches across America’s campuses. These groups help organize social events for some of the more than 430,000 Chinese nationals studying in the United States. They also alert Chinese consulates and embassies when Chinese students, and American schools, stray from the Communist Party line.
+
+    At the University of Maryland, a Chinese student recently spoke at her graduation of what she called, and I quote, the “fresh air of free speech” in America. The Communist Party’s official newspaper swiftly chastised her. She became the victim of a firestorm of criticism on China’s tightly-controlled social media, and her family back home was harassed. As for the university itself, its exchange program with China — one of the nation’s most extensive — suddenly turned from a flood to a trickle.
+
+    China exerts academic pressure in other ways, as well. Beijing provides generous funding to universities, think tanks, and scholars, with the understanding that they will avoid ideas that the Communist Party finds dangerous or offensive. China experts in particular know that their visas will be delayed or denied if their research contradicts Beijing’s talking points.
+
+    And even scholars and groups who avoid Chinese funding are targeted by that country, as the Hudson Institute found out firsthand. After you offered to host a speaker Beijing didn’t like, your website suffered a major cyberattack, originating from Shanghai. The Hudson Institute knows better than most that the Chinese Communist Party is trying to undermine academic freedom and the freedom of speech in America today.
+
+    These and other actions, taken as a whole, constitute an intensifying effort to shift American public opinion and policy away from the “America First” leadership of President Donald Trump.
+
+    But our message to China’s rulers is this: This President will not back down. (Applause.) The American people will not be swayed. And we will continue to stand strong for our security and our economy, even as we hope for improved relations with Beijing.
+
+    Our administration is going to continue to act decisively to protect America’s interests, American jobs, and American security.
+
+    As we rebuild our military, we will continue to assert American interests across the Indo-Pacific.
+
+    As we respond to China’s trade practices, we will continue to demand an economic relationship with China that is free, fair, and reciprocal. We will demand that Beijing break down its trade barriers, fulfill its obligations, fully open its economy — just as we have opened ours.
+
+    We’ll continue to take action against Beijing until the theft of American intellectual property ends once and for all. And we will continue to stand strong until Beijing stops the predatory practice of forced technology transfer. We will protect the private property interests of American enterprise. (Applause.)
+
+    And to advance our vision of a free and open Indo-Pacific, we’re building new and stronger bonds with nations that share our values across the region, from India to Samoa. Our relationships will flow from a spirit of respect built on partnership, not domination.
+
+    We’re forging new trade deals on a bilateral basis, just as last week President Trump signed an improved trade deal with South Korea. And we will soon begin historic negotiations for a bilateral free-trade deal with Japan. (Applause.)
+
+    I’m also pleased to report that we’re streamlining international development and finance programs. We’ll be giving foreign nations a just and transparent alternative to China’s debt-trap diplomacy. In fact, this week, President Trump will sign the BUILD Act into law.
+
+    Next month, it will be my privilege to represent the United States in Singapore and Papua New Guinea, at ASEAN and APEC. There, we will unveil new measures and programs to support a free and open Indo-Pacific. And on behalf of the President, I will deliver the message that America’s commitment to the Indo-Pacific has never been stronger. (Applause.)
+
+    Closer to home, to protect our interests, we’ve recently strengthened CFIUS — the Committee on Foreign Investment — heightening our scrutiny of Chinese investment in America to protect our national security from Beijing’s predatory actions.
+
+    And when it comes to Beijing’s malign influence and interference in American politics and policy, we will continue to expose it, no matter the form it takes. We will work with leaders at every level of society to defend our national interests and most cherished ideals. The American people will play the decisive role — and, in fact, they already are.
+
+    As we gather here, a new consensus is rising across America. More business leaders are thinking beyond the next quarter, and thinking twice before diving into the Chinese market if it means turning over their intellectual property or abetting Beijing’s oppression. But more must follow suit. For example, Google should immediately end development of the “Dragonfly” app that will strengthen Communist Party censorship and compromise the privacy of Chinese customers. (Applause.)
+
+    It’s also great to see more journalists reporting the truth without fear or favor, digging deep to find where China is interfering in our society, and why. And we hope that American and global news organizations will continue to join this effort on an increasing basis.
+
+    More scholars are also speaking out forcefully and defending academic freedom, and more universities and think tanks are mustering the courage to turn away Beijing’s easy money, recognizing that every dollar comes with a corresponding demand. And we’re confident that their ranks will grow.
+
+    And across the nation, the American people are growing in vigilance, with a newfound appreciation for our administration’s actions and the President’s leadership to reset America’s economic and strategic relationship with China. Americans stand strong behind a President that’s putting America first.
+
+    And under President Trump’s leadership, I can assure you, America will stay the course. China should know that the American people and their elected officials in both parties are resolved.
+
+    As our National Security Strategy states: We should remember that “Competition does not always mean hostility,” nor does it have to. The President has made clear, we want a constructive relationship with Beijing where our prosperity and security grow together, not apart. While Beijing has been moving further away from this vision, China’s rulers can still change course and return to the spirit of reform and opening that characterize the beginning of this relationship decades ago. The American people want nothing more; and the Chinese people deserve nothing less.
+
+    The great Chinese storyteller Lu Xun often lamented that his country, and he wrote, “has either looked down at foreigners as brutes, or up to them as saints, but never as equals.” Today, America is reaching out our hand to China. And we hope that soon, Beijing will reach back with deeds, not words, and with renewed respect for America. But be assured: we will not relent until our relationship with China is grounded in fairness, reciprocity, and respect for our sovereignty. (Applause.)
+
+    There is an ancient Chinese proverb that reads, “Men see only the present, but heaven sees the future.” As we go forward, let us pursue a future of peace and prosperity with resolve and faith. Faith in President Trump’s leadership and vision, and the relationship that he has forged with China’s president. Faith in the enduring friendship between the American people and the Chinese people. And Faith that heaven sees the future — and by God’s grace, America and China will meet that future together.
+
+    Thank you. God bless you. And God bless the United States of America. (Applause.)
+
+    END
+
+    11:47 A.M. EDT

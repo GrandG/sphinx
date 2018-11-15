@@ -23,6 +23,7 @@
    coroutine/coroutine
    vim/vim
    TCP_IP/tcp_ip
+   essays/essays
    
 
 Indices and tables

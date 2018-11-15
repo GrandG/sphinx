@@ -15,3 +15,4 @@ Django
    cache_framework
    django_redis
    WSGI
+   test
